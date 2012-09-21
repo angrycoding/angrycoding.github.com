@@ -1,0 +1,95 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+	position: absolute;
+}
+
+html {
+	background-repeat: repeat;
+	background-position: left top;
+	background-image: url('../media/background.png');
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, sans-serif;
+}
+
+body {
+	width: 850px;
+	margin: auto;
+	position: relative;
+}
+
+.gadget-board-wrapper {
+}
+
+.gadget-board {
+	margin-top: -20px;
+	margin-left: -20px;
+}
+
+.gadget-board-clear {
+	clear: both;
+}
+
+.gadget {
+	float: left;
+	position: relative;
+	padding: 10px;
+	margin-top: 20px;
+	margin-left: 20px;
+	text-decoration: none;
+}
+
+.gadget-border {
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	opacity: 0.4;
+	border-radius: 4px;
+	position: absolute;
+	background-color: black;
+}
+
+.gadget-content {
+	width: 250px;
+	overflow: hidden;
+	position: relative;
+}
+
+.gadget-overlay {
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	padding: 10px;
+	display: none;
+	opacity: 0.85;
+	position: absolute;
+	background-color: black;
+}
+
+.gadget:hover
+.gadget-overlay {
+	display: block;
+}
+
+.gadget-title {
+	font-size: 16px;
+	margin-bottom: 4px;
+	color: rgb(98, 224, 255);
+	font-family: 'Abel', sans-serif;
+}
+
+.gadget-description {
+	color: white;
+	font-size: 12px;
+	font-family: 'Happy Monkey', cursive;
+}
+
+.gadget-info {
+	color: white;
+	padding: 0px;
+	margin-top: 6px;
+	font-size: 12px;
+	position: relative;
+}
